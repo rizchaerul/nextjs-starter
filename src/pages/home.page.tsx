@@ -3,15 +3,15 @@ import { createAuthorizeLayout } from "@layouts/MainLayout";
 import Link from "next/link";
 import { Fragment } from "react";
 
-const IndexPage: NextPageWithLayout = () => {
+const HomePage: NextPageWithLayout = () => {
     return (
         <Fragment>
-            <h1>Index</h1>
+            <h1>Home</h1>
 
-            <Link href="/home">Home</Link>
+            <Link href="/">Index</Link>
         </Fragment>
     );
 };
 
-IndexPage.getLayout = createAuthorizeLayout();
-export default IndexPage;
+HomePage.getLayout = createAuthorizeLayout();
+export default HomePage;

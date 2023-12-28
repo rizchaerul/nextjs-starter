@@ -3,7 +3,9 @@
     "baseUrl": ".",
     "paths": {
       "@components/*": ["src/components/*"],
+      "@layouts/*": ["src/layouts/*"],
       "@styles/*": ["src/styles/*"],
+      "@custom-types/*": ["src/types/*"],
     },
     "lib": [
       "dom",
