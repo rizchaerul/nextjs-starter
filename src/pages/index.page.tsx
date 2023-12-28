@@ -1,5 +1,5 @@
 import { NextPageWithLayout } from "@custom-types/NextPageWithLayout";
-import { createAuthorizeLayout } from "@layouts/MainLayout";
+import { createMainLayout } from "@layouts/MainLayout";
 import Link from "next/link";
 import { Fragment } from "react";
 
@@ -13,5 +13,5 @@ const IndexPage: NextPageWithLayout = () => {
     );
 };
 
-IndexPage.getLayout = createAuthorizeLayout();
+IndexPage.getLayout = createMainLayout();
 export default IndexPage;

@@ -13,8 +13,8 @@ export const MainLayout: FC<PropsWithChildren> = ({ children }) => {
     );
 };
 
-export function createAuthorizeLayout() {
-    const getAuthorizedLayout = (page: ReactElement) => <MainLayout>{page}</MainLayout>;
+export function createMainLayout() {
+    const getMainLayout = (page: ReactElement) => <MainLayout>{page}</MainLayout>;
 
-    return getAuthorizedLayout;
+    return getMainLayout;
 }
