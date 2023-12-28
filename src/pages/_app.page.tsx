@@ -1,6 +1,7 @@
 import { AppPropsWithLayout } from "@custom-types/AppPropsWithLayout";
 import { Fragment, useEffect, useState } from "react";
 
+import "@styles/site.css";
 import "@styles/site.scss";
 
 export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
