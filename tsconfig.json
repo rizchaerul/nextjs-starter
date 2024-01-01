@@ -3,9 +3,12 @@
     "baseUrl": ".",
     "paths": {
       "@components/*": ["src/components/*"],
-      "@layouts/*": ["src/layouts/*"],
-      "@styles/*": ["src/styles/*"],
       "@custom-types/*": ["src/types/*"],
+      "@helpers/*": ["src/helpers/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@states/*": ["src/states/*"],
+      "@styles/*": ["src/styles/*"],
     },
     "lib": [
       "dom",

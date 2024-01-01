@@ -1,0 +1,12 @@
+<script src="oidc-client-ts.min.js"></script>
+
+<script>
+    new Oidc.UserManager()
+        .signinSilentCallback()
+        .then(() => {
+            console.log("successfully renewed token");
+        })
+        .catch((error) => {
+            console.error("error while signing in");
+        });
+</script>

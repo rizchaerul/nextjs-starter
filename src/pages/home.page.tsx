@@ -1,17 +1,14 @@
 import { NextPageWithLayout } from "@custom-types/NextPageWithLayout";
-import { createMainLayout } from "@layouts/MainLayout";
-import Link from "next/link";
+import { createAuthorizedLayout } from "@layouts/AuthorizedLayout";
 import { Fragment } from "react";
 
 const HomePage: NextPageWithLayout = () => {
     return (
         <Fragment>
             <h1>Home</h1>
-
-            <Link href="/">Index</Link>
         </Fragment>
     );
 };
 
-HomePage.getLayout = createMainLayout();
+HomePage.getLayout = createAuthorizedLayout();
 export default HomePage;
